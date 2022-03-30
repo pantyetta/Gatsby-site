@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-tag-js",
-    "path": "/tag/news",
-    "result": {"pageContext":{"post":{"name":"news","articles":[{"id":"4a1498b6-ae0b-50ff-bb60-41a8de12f582","title":"サイト開設のお知らせ"}]}}},
-    "staticQueryHashes": ["3092328407","712565814"]}

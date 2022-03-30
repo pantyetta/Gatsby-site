@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-post-js",
-    "path": "/post/4a1498b6-ae0b-50ff-bb60-41a8de12f582",
-    "result": {"pageContext":{"post":{"title":"サイト開設のお知らせ","content":{"data":{"childMarkdownRemark":{"html":"<p>この度サイトを開設しました</p>","rawMarkdownBody":"この度サイトを開設しました"}},"medias":[]},"id":"4a1498b6-ae0b-50ff-bb60-41a8de12f582"}}},
-    "staticQueryHashes": ["3092328407","712565814"]}
