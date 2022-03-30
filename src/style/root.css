@@ -1,0 +1,89 @@
+:root {
+    --web-font-color: #717171;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.none {
+    display: none;
+}
+
+.content {
+    position: relative;
+    top: 0;
+    left: 200px;
+    width: calc(100% - 200px);
+    margin-bottom: 50px;
+}
+
+.content .title {
+    text-align: center;
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+    color: var(--web-font-color);
+    font-size: 3em;
+}
+
+.content .markdown {
+    max-width: 80%;
+    margin: auto;
+    color: var(--web-font-color);
+}
+
+.content .markdown * {
+    text-align: left;
+    max-width: 100%;
+}
+
+.content .markdown h1 {
+    font-size: 2em;
+}
+
+.content .markdown h2 {
+    font-size: 1.75em;
+}
+
+.content .markdown h3 {
+    font-size: 1.5em;
+}
+
+.content .markdown h4 {
+    font-size: 1.25em;
+}
+
+.content .markdown h5 {
+    font-size: 1em;
+}
+
+.content .markdown h6 {
+    font-size: 0.75em;
+}
+
+.content .markdown ul {
+    padding-left: 25px;
+}
+
+.content .markdown ol {
+    padding-left: 25px;
+}
+
+.content .markdown hr {
+    margin: 8vmin 0;
+}
+
+.content .markdown blockquote {
+    margin: 2vmin 0;
+    padding: 2vmin 0 2vmin 2vmin;
+    border-left: var(--web-font-color) solid 3px;
+}
+
+.content .markdown img {
+    margin: 2vmin 0;
+}
+
+.content .markdown a {
+    overflow-wrap: break-word;
+}
