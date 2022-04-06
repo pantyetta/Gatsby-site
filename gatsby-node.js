@@ -4,12 +4,13 @@ exports.createPages = async({ graphql, actions, reporter }) => {
     const { createPage } = actions
 
     const PostResult = await graphql(
-        `
+      `
       {
         allStrapiArticle {
           edges {
             node {
               title
+              date
               content {
                 data {
                   childMarkdownRemark {
@@ -55,7 +56,7 @@ exports.createPages = async({ graphql, actions, reporter }) => {
 
 
     const Tagesult = await graphql(
-        `
+      `
       {
         allStrapiTag {
           edges {
@@ -71,6 +72,7 @@ exports.createPages = async({ graphql, actions, reporter }) => {
       }
       `
     )
+    
     if (Tagesult.errors) {
         reporter.panicOnBuild('TagResult Error while running Graphql query.')
         return

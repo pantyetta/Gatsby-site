@@ -15,13 +15,13 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
-    {
-      resolve: `gatsby-source-strapi`,
-      options: strapiConfig,
-    },
     `gatsby-transformer-remark`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-source-strapi`,
+      options: strapiConfig,
+    },
   ],
 }

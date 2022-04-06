@@ -12,16 +12,21 @@ const Post = ({ pageContext }) => {
       if(typeof medias.src !== 'undefined'){
         const oldurl = medias.src
         const newurl = medias.localFile.childImageSharp.gatsbyImageData.images.fallback.src
+
         const html = node.content.data.childMarkdownRemark.html
+
         node.content.data.childMarkdownRemark.html = html.replace(oldurl, newurl)
       }
     })
     
+    var date = node.date.split('T')[0]
+
     return ( 
         <>
         <Header />
         <div className="content">
           <h1 key={node.id} className="title">{node.title}</h1>
+          <p className="date">{date}</p>
           <div className="markdown" dangerouslySetInnerHTML={{__html: node.content.data.childMarkdownRemark.html}}></div>
         </div>
         <Footer />
