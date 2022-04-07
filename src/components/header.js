@@ -15,7 +15,7 @@ const Header = () => {
                       url
                     }
                   }
-                allStrapiArticle(limit: 3) {
+                allStrapiArticle(limit: 3, sort: {order: DESC, fields: date}) {
                     edges {
                       node {
                         title

@@ -19,14 +19,14 @@ const Post = ({ pageContext }) => {
       }
     })
     
-    var date = node.date.split('T')[0]
-
+    var UploadData = node.date.replaceAll('-', '.')
+    
     return ( 
         <>
         <Header />
         <div className="content">
           <h1 key={node.id} className="title">{node.title}</h1>
-          <p className="date">{date}</p>
+          <p className="date">{UploadData}</p>
           <div className="markdown" dangerouslySetInnerHTML={{__html: node.content.data.childMarkdownRemark.html}}></div>
         </div>
         <Footer />

@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-tag-js",
     "path": "/tag/test",
-    "result": {"pageContext":{"post":{"name":"test","articles":[{"id":"257add35-b2e9-5de9-be03-9d0c7583b9e2","title":"test記事"}]}}},
-    "staticQueryHashes": ["3092328407","712565814"]}
+    "result": {"pageContext":{"post":{"name":"test","articles":[{"title":"test記事","id":"257add35-b2e9-5de9-be03-9d0c7583b9e2","date":"2022-03-31","content":{"data":{"childMarkdownRemark":{"excerpt":"これテスト記事です"}}},"tags":[{"id":"bb1bbeb6-8ff4-59fc-917b-9afe32c19e57","name":"news"},{"id":"35231fe2-202e-566f-86dc-aa4f9a8b49a7","name":"test"}]},{"title":"MD test","id":"40318be6-4d3f-5c6a-8ae5-5c1b328b1c04","date":"2022-03-31","content":{"data":{"childMarkdownRemark":{"excerpt":"h1 h2 h3 h4 h5 h6 Bold Italic Underline これで文字に修正緯線 一つ目 二つ目 三つ目 windows mac os l…"}}},"tags":[{"id":"35231fe2-202e-566f-86dc-aa4f9a8b49a7","name":"test"}]},{"title":"長いタイトルの時にどうなるのかを検証","id":"20995cd6-b60e-50af-a7e4-ce78ca83b29f","date":"2022-04-08","content":{"data":{"childMarkdownRemark":{"excerpt":"皆さんこんにちは！ 今回はタイトルが長いと、どれ位タイトル下のバーが伸びるのかを検証したいと思います。 え、、、？\nもう確認できたから記事の内容が要らないだっ…"}}},"tags":[{"id":"35231fe2-202e-566f-86dc-aa4f9a8b49a7","name":"test"}]}]}}},
+    "staticQueryHashes": ["111190080","712565814"]}

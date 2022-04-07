@@ -37,19 +37,19 @@ header ul {
 
 header li {
     list-style-type: none;
-    margin: 10px 0;
+    max-width: 80%;
+    margin: 10px auto;
 }
 
 header li:first-child {
-    margin: 0 0 10px 0;
+    margin: 0 auto 10px;
 }
 
 header li:last-child {
-    margin: 10px 0 0 0;
+    margin: 10px auto 0;
 }
 
 header li a {
-    text-decoration: none;
     color: var(--web-font-color);
 }
 

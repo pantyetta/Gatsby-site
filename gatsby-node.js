@@ -63,8 +63,20 @@ exports.createPages = async({ graphql, actions, reporter }) => {
             node {
               name
               articles {
-                id
                 title
+                id
+                date
+                content {
+                  data {
+                    childMarkdownRemark {
+                      excerpt(format: PLAIN, pruneLength: 80, truncate: true)
+                    }
+                  }
+                }
+                tags {
+                  id
+                  name
+                }
               }
             }
           }
